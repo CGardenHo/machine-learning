@@ -60,7 +60,7 @@ print accuracy_score(prediction, labels_test)
 # print clf.predict(features_test[50])
 #
 #If you meet this error: "error in python script:  Expected 2D array, got 1D array instead", 
-#please use the following coding.
+#please use the following codings.
 #test = np.array(features_test[50])
 #test = test.reshape(1,-1)
 #print clf.predict(test)
